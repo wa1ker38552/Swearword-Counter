@@ -1,7 +1,10 @@
 # Swearword-Counter
 A short swearword counter discord bot that's also a self bot
 
-An instance of the bot will only work for **1** server, this bot is not meant to be deployed for public use!
+**Notes 📝**
+- I didn't use the command framework because lazy 🥱
+- Message intents bypass works by taking most recent message in channel history when `on_message` is triggered. This bypass won't work for servers that constantly recieve hunderd of messages because the bot will hit rate limits
+- An instance of the bot will only work for **1** server, this bot is not meant to be deployed for public use!
 
 **Setup ⚙️**
 1. Import repository preferably to [Replit](https://replit.com/repls)
