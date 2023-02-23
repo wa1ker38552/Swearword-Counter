@@ -25,6 +25,6 @@ An instance of the bot will only work for **1** server, this bot is not meant to
 - `!banned` Lists all the banned words
 - `!ban word` Ban a specific word (admin only)
 - `!multiban word1 word2 word3` Bans a list of words (admin only)
-- `!unban word` Unbans a word
-- `!remove @user x` Removes x swears from specified users
+- `!unban word` Unbans a word (admin only)
+- `!remove @user x` Removes x swears from specified users (admin only)
 - `!leaderboard` Shows the leaderboard for the server
